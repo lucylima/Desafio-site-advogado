@@ -1,0 +1,64 @@
+@media screen and (max-width:480px) {
+  .header-contato li:nth-child(-n+4) {
+    display: none;
+  }
+
+  .agencia {
+    display: flex;
+    font-size: 1rem;
+    text-wrap: wrap;
+    text-align: center;
+  }
+
+  .nav {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+  }
+
+  .header-contato li {
+    padding: 1rem 0rem;
+    flex-wrap: nowrap;
+  }
+
+  .header-contato {
+    padding: 1rem 1.5rem;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .logo h3 {
+    display: none;
+  }
+
+  .logo {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .logo img {
+    border-radius: 50%;
+  }
+
+  .links {
+    gap: 1rem;
+  }
+
+  .sobre {
+    padding-inline: 4rem;
+  }
+
+  .sobre-imagem {
+    display: none;
+  }
+
+  .sobre-texto {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 2;
+  }
+
+}
